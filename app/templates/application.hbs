@@ -1,5 +1,47 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<nav class="navbar navbar-default negative-margin">
+  <div class="container">
+    <div class="navbar-header">
+      {{#link-to "home" class="navbar-brand"}}Black Dog Surplus, Inc{{/link-to}}
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right align-center">
+        <li class="dropdown">
+          {{#rl-dropdown-container class="dropdown"}}
+            {{#rl-dropdown-toggle class="btn btn-default"}}
+              About Us <span class="caret"></span>
+            {{/rl-dropdown-toggle}}
+
+          {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
+              <li>{{#link-to "history"}}History{{/link-to}}</li>
+              <li>{{#link-to "partners"}}Principal Partners{{/link-to}}</li>
+              <li>{{#link-to "companies"}}Affiliated Companies{{/link-to}}</li>
+            {{/rl-dropdown}}
+          {{/rl-dropdown-container}}
+        </li>
+        <li class="dropdown">
+          {{#rl-dropdown-container class="dropdown"}}
+            {{#rl-dropdown-toggle class="btn btn-default"}}
+              Services <span class="caret"></span>
+            {{/rl-dropdown-toggle}}
+
+          {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
+              <li>{{#link-to "mre"}}Meals Ready-to-Eat{{/link-to}}</li>
+              <li>{{#link-to "medicine"}}Medicine &amp; First Aid{{/link-to}}</li>
+              <li>{{#link-to "binders"}}Binders &amp; Documents Folder{{/link-to}}</li>
+            {{/rl-dropdown}}
+          {{/rl-dropdown-container}}
+        </li>
+        <li>{{#link-to "contact"}}Contact{{/link-to}}</li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 {{outlet}}
+
+<footer class="footer section">
+  <div class="container flex">
+    <div>© 2017 Copyright</div>
+    <div>Black Dog Surplus, Inc</div>
+  </div>
+</footer>
