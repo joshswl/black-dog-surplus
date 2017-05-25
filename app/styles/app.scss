@@ -2,14 +2,22 @@
 
 @import "ember-bootstrap/bootstrap";
 @import "home";
+@import 'contact';
+
+$m-gutter: 1rem;
+
+.section {
+  padding: $m-gutter * 4;
+}
 
 .negative-margin {
   margin: 0 -1rem;
 }
 
-.navbar-right {
+.align-center {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .btn {
