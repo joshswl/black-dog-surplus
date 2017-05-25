@@ -7,7 +7,7 @@
 $m-gutter: 1rem;
 
 .section {
-  padding: $m-gutter * 4;
+  padding: $m-gutter * 2;
 }
 
 .negative-margin {
@@ -18,6 +18,13 @@ $m-gutter: 1rem;
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .btn {
