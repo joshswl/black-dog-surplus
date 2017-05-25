@@ -12,9 +12,9 @@
             {{/rl-dropdown-toggle}}
 
           {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
-              <li><a href="#">History</a></li>
-              <li><a href="#">Principal Partners</a></li>
-              <li><a href="#">Affiliated Companies</a></li>
+              <li>{{#link-to "history"}}History{{/link-to}}</li>
+              <li>{{#link-to "partners"}}Principal Partners{{/link-to}}</li>
+              <li>{{#link-to "companies"}}Affiliated Companies{{/link-to}}</li>
             {{/rl-dropdown}}
           {{/rl-dropdown-container}}
         </li>
@@ -25,9 +25,9 @@
             {{/rl-dropdown-toggle}}
 
           {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
-              <li><a href="#">Meals Ready-to-Eat</a></li>
-              <li><a href="#">Medicine &amp; First Aid</a></li>
-              <li><a href="#">Binders &amp; Documents Folder</a></li>
+              <li>{{#link-to "mre"}}Meals Ready-to-Eat{{/link-to}}</li>
+              <li>{{#link-to "medicine"}}Medicine &amp; First Aid{{/link-to}}</li>
+              <li>{{#link-to "binders"}}Binders &amp; Documents Folder{{/link-to}}</li>
             {{/rl-dropdown}}
           {{/rl-dropdown-container}}
         </li>
