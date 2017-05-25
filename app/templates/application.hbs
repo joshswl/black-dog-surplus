@@ -1,29 +1,35 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<nav class="navbar navbar-default negative-margin">
+  <div class="container">
     <div class="navbar-header">
       {{#link-to "home" class="navbar-brand"}}Black Dog Surplus, Inc{{/link-to}}
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
+          {{#rl-dropdown-container class="dropdown"}}
+            {{#rl-dropdown-toggle class="btn btn-default"}}
+              About Us <span class="caret"></span>
+            {{/rl-dropdown-toggle}}
+
+          {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
+              <li><a href="#">History</a></li>
+              <li><a href="#">Principal Partners</a></li>
+              <li><a href="#">Affiliated Companies</a></li>
+            {{/rl-dropdown}}
+          {{/rl-dropdown-container}}
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
+          {{#rl-dropdown-container class="dropdown"}}
+            {{#rl-dropdown-toggle class="btn btn-default"}}
+              Services <span class="caret"></span>
+            {{/rl-dropdown-toggle}}
+
+          {{#rl-dropdown tagName="ul" class="dropdown-menu" closeOnChildClick="a:link"}}
+              <li><a href="#">Meals Ready-to-Eat</a></li>
+              <li><a href="#">Medicine &amp; First Aid</a></li>
+              <li><a href="#">Binders &amp; Documents Folder</a></li>
+            {{/rl-dropdown}}
+          {{/rl-dropdown-container}}
         </li>
         <li>{{#link-to "contact"}}Contact{{/link-to}}</li>
       </ul>

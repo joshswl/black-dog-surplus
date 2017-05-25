@@ -1,3 +1,22 @@
 @import 'reset';
 
 @import "ember-bootstrap/bootstrap";
+@import "home";
+
+.negative-margin {
+  margin: 0 -1rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border: 0;
+  background: none;
+
+  &:hover {
+    background: none;
+  }
+}
