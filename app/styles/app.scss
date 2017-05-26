@@ -21,10 +21,9 @@ $m-gutter: 1rem;
   justify-content: center;
 }
 
-.flex {
+.flex-end {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .btn {
@@ -34,4 +33,9 @@ $m-gutter: 1rem;
   &:hover {
     background: none;
   }
+}
+
+.logo {
+  padding: $m-gutter;
+  width: 12.5rem;
 }

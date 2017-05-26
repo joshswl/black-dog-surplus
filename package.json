@@ -10,9 +10,13 @@
   },
   "repository": "",
   "scripts": {
+    "start": "ember serve -lrp 35729",
+    "test": "ember test -s",
     "build": "ember build",
-    "start": "ember server",
-    "test": "ember test"
+    "lint": "sass-lint",
+    "esfix": "eslint src --fix && eslint tests --fix",
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist blackdogsurplus.net",
+    "setup:vue": "yarn add vue vue-router && yarn add --dev rollup-plugin-vue eslint-plugin-html"
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",

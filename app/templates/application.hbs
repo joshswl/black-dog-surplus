@@ -1,7 +1,9 @@
 <nav class="navbar navbar-default negative-margin">
   <div class="container">
     <div class="navbar-header">
-      {{#link-to "home" class="navbar-brand"}}Black Dog Surplus, Inc{{/link-to}}
+      {{#link-to "home"}}
+        <img src="/img/blackdog-logo.png" alt="" class="logo">
+      {{/link-to}}
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right align-center">
@@ -40,8 +42,5 @@
 {{outlet}}
 
 <footer class="footer section">
-  <div class="container flex">
-    <div>© 2017 Copyright</div>
-    <div>Black Dog Surplus, Inc</div>
-  </div>
+  <div class="container flex-end">© 2017 Black Dog Surplus, Inc</div>
 </footer>
