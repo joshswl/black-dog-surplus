@@ -12,18 +12,11 @@ $m-gutter: 1rem;
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 90rem;
 }
 
 .negative-margin {
   margin: 0 -1rem;
-}
-
-.align-center {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 
 .flex-end {
@@ -41,6 +34,13 @@ $m-gutter: 1rem;
 }
 
 .logo {
-  margin: $m-gutter * 2;
+  margin: $m-gutter;
+  margin-left: 0;
   width: 35rem;
+}
+
+.nav-text {
+  margin: $m-gutter;
+  margin-right: 0;
+  font-size: 18px;
 }
