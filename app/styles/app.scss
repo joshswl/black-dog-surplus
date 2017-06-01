@@ -1,13 +1,18 @@
-@import 'reset';
+$m-gutter: 1rem;
 
+
+@import 'reset';
 @import "ember-bootstrap/bootstrap";
 @import "home";
 @import 'contact';
 
-$m-gutter: 1rem;
 
 .section {
   padding: $m-gutter * 2;
+}
+
+.container {
+  max-width: 80rem;
 }
 
 .negative-margin {
@@ -36,6 +41,6 @@ $m-gutter: 1rem;
 }
 
 .logo {
-  padding: $m-gutter;
-  width: 25rem;
+  margin: $m-gutter * 2;
+  width: 35rem;
 }
