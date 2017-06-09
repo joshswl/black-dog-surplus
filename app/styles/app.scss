@@ -1,5 +1,13 @@
 $m-gutter: 1rem;
 
+$navbar-default-link-color: #fff;
+$navbar-default-link-hover-color: #fff;
+$navbar-default-bg: #FF162F;
+
+// $panel-default-text: #fff;
+// $panel-default-border: #6c6c6c;
+// $panel-default-heading-bg: #414141;
+
 
 @import 'reset';
 @import "ember-bootstrap/bootstrap";
@@ -7,6 +15,12 @@ $m-gutter: 1rem;
 @import 'contact';
 @import 'companies';
 
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Allerta Stencil', sans-serif;
+}
 
 .section {
   padding: $m-gutter * 2;
@@ -35,7 +49,9 @@ $m-gutter: 1rem;
 }
 
 .logo {
-  margin: $m-gutter;
+  display: flex;
+  align-items: center;
+  padding: $m-gutter * 1.5;
   margin-left: 0;
   width: 35rem;
 }
@@ -44,4 +60,17 @@ $m-gutter: 1rem;
   margin: $m-gutter;
   margin-right: 0;
   font-size: 18px;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  font-family: sans-serif;
+  bottom: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
