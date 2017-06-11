@@ -1,21 +1,23 @@
-<nav class="navbar navbar-default negative-margin">
-  <div class="container">
-    <div class="navbar-header">
-      {{#link-to "home"}}
-        <img src="/img/blackdog-logo-text.png" alt="" class="logo">
-      {{/link-to}}
+<div class="app">
+  <nav class="navbar navbar-default negative-margin">
+    <div class="container">
+      <div class="navbar-header">
+        {{#link-to "home"}}
+          <img src="/img/blackdog-logo-text.png" alt="" class="logo">
+        {{/link-to}}
+      </div>
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-text uppercase">{{#link-to "companies"}}Affiliated Companies{{/link-to}}</li>
+          <li class="nav-text uppercase">{{#link-to "contact"}}Contact Us{{/link-to}}</li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-text">{{#link-to "companies"}}Affiliated Companies{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "contact"}}Contact Us{{/link-to}}</li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-{{outlet}}
+  {{outlet}}
 
-<footer class="footer section">
-  <div class="container flex-end">© 2017 Black Dog Surplus, Inc.</div>
-</footer>
+  <footer class="footer section">
+    <div class="container flex-end">© 2017 Black Dog Surplus, Inc.</div>
+  </footer>
+</div>
