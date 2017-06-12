@@ -1,7 +1,11 @@
+$fa-fb: #3b5998;
+$fa-tt: #2fa8f3;
+$fa-li: #0076b4;
+
 .align-center {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -13,14 +17,14 @@
   }
 
   &-fb {
-    color: #3B5998;
+    color: $fa-fb;
   }
 
   &-tt {
-    color: #2FA8F3;
+    color: $fa-tt;
   }
 
   &-li {
-    color: #0076B4;
+    color: $fa-li;
   }
 }
