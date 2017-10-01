@@ -12,19 +12,19 @@ $fa-li: #0076b4;
 .social {
   font-size: 4rem;
 
-  &-icon {
-    padding: $m-gutter;
-  }
 
   &-fb {
+    padding: $m-gutter;
     color: $fa-fb;
   }
 
   &-tt {
+    padding: $m-gutter;
     color: $fa-tt;
   }
 
   &-li {
+    padding: $m-gutter;
     color: $fa-li;
   }
 }
