@@ -17,6 +17,7 @@
 .grid {
   display: flex;
   width: 100%;
+  margin: 4rem 0;
 
   &__item {
     width: calc(100% / 3);
@@ -25,10 +26,11 @@
 
 .home-bottom {
   position: relative;
+  margin: 1.5rem;
 
   &__img {
-    position: relative;
     display: block;
+    position: relative;
     width: 100%;
     height: 40rem;
     object-fit: cover;
@@ -39,7 +41,7 @@
     bottom: 0;
     left: 0;
     margin: .5rem 1rem;
-    color: #223746;
+    color: white;
     font-size: 1.5rem;
     text-transform: uppercase;
   }

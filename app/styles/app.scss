@@ -18,11 +18,11 @@ $navbar-default-bg: #ff162f;
 }
 
 .section {
-  padding: $m-gutter * 2;
+  padding: $m-gutter;
 }
 
 .container {
-  max-width: 90rem;
+  max-width: 100rem;
 }
 
 .negative-margin {
@@ -63,7 +63,7 @@ $navbar-default-bg: #ff162f;
 }
 
 .footer {
-  bottom: 0;
+  padding: 2rem;
   font-family: sans-serif;
 }
 
