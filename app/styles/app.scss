@@ -19,7 +19,6 @@ $navbar-default-bg: transparent;
   flex-direction: column;
   min-height: 100vh;
   background: #e6e3df;
-  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .section {
@@ -60,8 +59,4 @@ $navbar-default-bg: transparent;
   margin: $m-gutter;
   margin-right: 0;
   font-size: 18px;
-}
-
-.footer {
-  font-family: 'PT Sans Narrow', sans-serif;
 }
