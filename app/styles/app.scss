@@ -1,8 +1,8 @@
 $m-gutter: 1rem;
 
-$navbar-default-link-color: #fff;
-$navbar-default-link-hover-color: #fff;
-$navbar-default-bg: #ff162f;
+$navbar-default-link-color: #000;
+$navbar-default-link-hover-color: #c90404;
+$navbar-default-bg: transparent;
 
 @import 'reset';
 @import 'ember-bootstrap/bootstrap';
@@ -14,7 +14,8 @@ $navbar-default-bg: #ff162f;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Allerta Stencil', sans-serif;
+  background: #e6e3df;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .section {
@@ -65,8 +66,4 @@ $navbar-default-bg: #ff162f;
 .footer {
   padding: 2rem;
   font-family: sans-serif;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
