@@ -10,6 +10,10 @@ Router.map(function () {
   this.route('home', { path: '/' });
   this.route('contact');
   this.route('companies');
+  this.route('why-bds');
+  this.route('custom-packaging');
+  this.route('our-mission');
+  this.route('humanitarian-aid');
 });
 
 export default Router;
