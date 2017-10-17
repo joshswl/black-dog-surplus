@@ -3,6 +3,22 @@ $fa-tt: #2fa8f3;
 $fa-li: #0076b4;
 
 
+.contact {
+
+  &__header {
+    padding: $m-gutter 0;
+
+    &--text {
+      text-transform: uppercase;
+    }
+  }
+
+  &__content {
+    margin: $m-gutter * 2;
+    padding: $m-gutter * 2;
+  }
+}
+
 .align-center {
   display: flex;
   align-items: center;
@@ -11,6 +27,9 @@ $fa-li: #0076b4;
 }
 
 .social {
+  display: flex;
+  flex-direction: column;
+  padding: $m-gutter * 2;
   font-size: 4rem;
 
 
