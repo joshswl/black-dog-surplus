@@ -66,6 +66,15 @@ $navbar-default-bg: transparent;
   font-size: 18px;
 }
 
+.page-header {
+  padding: $m-gutter 0;
+
+  &--text {
+    color: #585858;
+    text-transform: uppercase;
+  }
+}
+
 .footer {
   padding: $m-gutter;
   background: #595959;
