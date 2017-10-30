@@ -15,7 +15,7 @@
     "build": "ember build",
     "lint": "sass-lint",
     "esfix": "eslint src --fix && eslint tests --fix",
-    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist custommre.com",
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist atlasresponse.net",
     "setup:vue": "yarn add vue vue-router && yarn add --dev rollup-plugin-vue eslint-plugin-html"
   },
   "devDependencies": {

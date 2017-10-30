@@ -1,8 +1,9 @@
 $m-gutter: 1rem;
 $c-grey: #595959;
+$c-red: #c90404;
 
 $navbar-default-link-color: #000;
-$navbar-default-link-hover-color: #c90404;
+$navbar-default-link-hover-color: $c-red;
 $navbar-default-bg: transparent;
 
 @import 'reset';
