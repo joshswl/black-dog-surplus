@@ -14,4 +14,19 @@
       width: 100%;
     }
   }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .why-bds {
+
+    &__info {
+      width: 100%;
+    }
+
+    &__images {
+      width: 100%;
+    }
+  }
 }
