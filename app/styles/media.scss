@@ -1,0 +1,17 @@
+@media (min-width: 300px) and (max-width: 650px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .company-overview {
+    font-size: 18px;
+  }
+
+  .grid {
+    flex-direction: column;
+
+    &__item {
+      width: 100%;
+    }
+  }
+}

@@ -2,24 +2,46 @@
   margin: 0;
   background: linear-gradient(rgba(#e6e3df, 0.9), rgba(#e6e3df, 0.9)), url('../img/home-background.JPG');
   background-size: cover;
+
+  &-logo {
+    width: 40rem;
+    margin: $m-gutter * 2;
+  }
+
+  &-text {
+    padding: $m-gutter * 2;
+    color: $c-red;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  &-bottom {
+    position: relative;
+    margin: 1.5rem;
+
+    &__img {
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 40rem;
+      object-fit: cover;
+    }
+
+    &__text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: .5rem 1rem;
+      color: white;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .banner {
   display: flex;
-  width: 100%;
-}
-
-.home-logo {
-  width: 40rem;
-  padding: 2rem;
-}
-
-.home-text {
-  width: 70rem;
-  padding: 5rem;
-  color: $c-red;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 4.5rem;
 }
 
 .company {
@@ -36,33 +58,9 @@
 
 .grid {
   display: flex;
-  width: 100%;
-  margin: 4rem 0;
+  margin: $m-gutter * 2;
 
   &__item {
     width: calc(100% / 3);
-  }
-}
-
-.home-bottom {
-  position: relative;
-  margin: 1.5rem;
-
-  &__img {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 40rem;
-    object-fit: cover;
-  }
-
-  &__text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: .5rem 1rem;
-    color: white;
-    font-size: 1.5rem;
-    text-transform: uppercase;
   }
 }
