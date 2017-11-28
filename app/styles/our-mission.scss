@@ -5,11 +5,11 @@
 
   &__image {
     width: 50rem;
-    padding: $m-gutter * 4;
+    margin: $m-gutter * 2;
   }
 
   &__text {
-    padding: $m-gutter * 4;
+    padding: $m-gutter * 2;
     font-size: 1.7rem;
   }
 }
