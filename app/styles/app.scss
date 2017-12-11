@@ -1,10 +1,11 @@
 $m-gutter: 1rem;
 $c-grey: #595959;
 $c-red: #c90404;
+$c-off-white: #e6e3df;
 
 $navbar-default-link-color: #000;
 $navbar-default-link-hover-color: $c-red;
-$navbar-default-bg: transparent;
+$navbar-default-bg: $c-off-white;
 
 @import 'reset';
 @import 'ember-bootstrap/bootstrap';
@@ -17,10 +18,8 @@ $navbar-default-bg: transparent;
 @import 'media';
 
 .app {
-  display: flex;
-  flex-direction: column;
+  background: $c-off-white;
   min-height: 100vh;
-  background: #e6e3df;
 }
 
 .section {
@@ -29,10 +28,6 @@ $navbar-default-bg: transparent;
 
 .container {
   max-width: 100rem;
-}
-
-.negative-margin {
-  margin: 0 -1rem;
 }
 
 .flex {
