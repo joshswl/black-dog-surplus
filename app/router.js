@@ -8,12 +8,10 @@ const Router = Ember.Router.extend({
 
 Router.map(function () {
   this.route('home', { path: '/' });
-  this.route('companies');
   this.route('why-bds');
   this.route('custom-packaging');
   this.route('our-mission');
   this.route('humanitarian-aid');
-  this.route('companies');
   this.route('contact');
 });
 
