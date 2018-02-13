@@ -1,8 +1,8 @@
 .custom-packaging {
-  margin: 0;
-  padding-bottom: $m-gutter * 4;
+  padding: $m-gutter * 5 0;
   background: linear-gradient(rgba(#e6e3df, 0.9), rgba(#e6e3df, 0.9)), url('../img/custom-packaging-background.jpg');
   background-size: cover;
+  min-height: 100vh;
 
   &__image {
     width: 45rem;

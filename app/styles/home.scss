@@ -3,9 +3,11 @@
 }
 
 .home {
-  margin: 0;
+  padding-top: 5rem;
   background: linear-gradient(rgba(#e6e3df, 0.9), rgba(#e6e3df, 0.9)), url('../img/home-background.JPG');
   background-size: cover;
+  min-height: 100vh;
+  min-width: 100%;
 
   &-logo {
     width: 40rem;
