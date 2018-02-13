@@ -4,7 +4,7 @@ $fa-li: #0076b4;
 
 
 .contact {
-  padding-top: 5rem;
+  padding: $m-gutter * 5 0;
   background: linear-gradient(rgba(#e6e3df, 0.9), rgba(#e6e3df, 0.9)), url('../img/contact-background.jpg');
   background-size: cover;
   min-height: 100vh;
