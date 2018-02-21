@@ -17,6 +17,27 @@ $navbar-default-bg: $c-off-white;
 @import 'contact';
 @import 'media';
 
+.fade-in-and-out{
+
+  &-enter {
+    opacity: 0.01;
+  }
+
+  &-enter-active {
+    opacity: 1;
+    transition: opacity .75s ease-in;
+  }
+
+  &-leave {
+    opacity: 1;
+  }
+
+  &-leave-active {
+    opacity: 0.01;
+    transition: opacity .75s ease-in;
+  }
+}
+
 .app {
   background: $c-off-white;
   min-height: 100vh;
