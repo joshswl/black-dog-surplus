@@ -23,7 +23,7 @@
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-bootstrap": "^1.0.0-alpha.12",
-    "ember-cli": "~2.14.0-beta.1",
+    "ember-cli": "^2.14.2",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.1.0",
     "ember-cli-copyright": "^2.4.0",
@@ -53,5 +53,8 @@
   "engines": {
     "node": ">= 4"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "ember-css-transitions": "^0.1.11"
+  }
 }
