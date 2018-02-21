@@ -12,9 +12,3 @@ const App = Ember.Application.extend({
 loadInitializers(App, config.modulePrefix);
 
 export default App;
-
-$(document).on('click', '.navbar-collapse.in', function (e) {
-  if ($(e.target).is('a')) {
-      $(this).collapse('hide');
-  }
-});
