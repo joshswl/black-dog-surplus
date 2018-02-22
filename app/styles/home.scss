@@ -1,9 +1,9 @@
 .home {
-  padding: $m-gutter * 5 0;
-  background: linear-gradient(rgba(#e6e3df, 0.9), rgba(#e6e3df, 0.9)), url('../img/home-background.JPG');
-  background-size: cover;
-  min-height: 100vh;
   min-width: 100%;
+  min-height: 100vh;
+  padding: $m-gutter * 5 0;
+  background: linear-gradient($c-skin, $c-skin), url('../img/home-background.JPG');
+  background-size: cover;
 
   &-logo {
     width: 40rem;
@@ -34,8 +34,8 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      margin: .5rem 1rem;
-      color: white;
+      margin: 0.5rem 1rem;
+      color: $c-white;
       font-size: 1.5rem;
       text-transform: uppercase;
     }

@@ -4,10 +4,10 @@ $fa-li: #0076b4;
 
 
 .contact {
-  padding: $m-gutter * 5 0;
-  background: linear-gradient(rgba(#e6e3df, 0.9), rgba(#e6e3df, 0.9)), url('../img/contact-background.jpg');
-  background-size: cover;
   min-height: 100vh;
+  padding: $m-gutter * 5 0;
+  background: linear-gradient($c-skin, $c-skin), url('../img/contact-background.jpg');
+  background-size: cover;
 
   &__text {
     font-size: 25px;
@@ -21,15 +21,15 @@ $fa-li: #0076b4;
 
 .align-center {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .social {
   padding: $m-gutter * 4 0;
-  text-align: center;
   font-size: 50px;
+  text-align: center;
 
 
   &-fb {
