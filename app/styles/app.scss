@@ -1,7 +1,7 @@
 $m-gutter: 1rem;
 $c-grey: #595959;
 $c-red: #c90404;
-$c-white: #ffffff;
+$c-white: #fff;
 $c-off-white: #e6e3df;
 $c-skin: rgba($c-off-white, 0.9);
 
@@ -98,7 +98,7 @@ $navbar-default-bg: $c-off-white;
 }
 
 .footer {
-  padding: $m-gutter;
+  padding: ($m-gutter * 2) 0;
   background: $c-grey;
   color: $c-white;
   font-size: 1.5rem;

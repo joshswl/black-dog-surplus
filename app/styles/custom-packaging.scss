@@ -1,17 +1,37 @@
 .custom-packaging {
   min-height: 100vh;
-  padding: $m-gutter * 5 0;
+  padding: ($m-gutter * 5) 0;
   background: linear-gradient($c-skin, $c-skin), url('../img/custom-packaging-background.jpg');
   background-size: cover;
 
+  &__grid {
+    padding: ($m-gutter * 2) 0;
+
+    > * + * {
+      border-top: $c-grey 3px solid;
+    }
+
+    &--item {
+      padding: ($m-gutter * 2) 0;
+    }
+  }
+
   &__image {
-    width: 45rem;
-    height: 32rem;
-    margin: $m-gutter * 2 0;
+    width: 60rem;
+    padding: $m-gutter;
   }
 
   &__text {
-    padding: $m-gutter * 4;
-    font-size: 2rem;
+    padding: 0 $m-gutter * 3;
+    font-size: 20px;
+  }
+
+  &__number {
+    font-size: 60px;
+  }
+
+  &__title {
+    color: $c-grey;
+    font-size: 35px;
   }
 }

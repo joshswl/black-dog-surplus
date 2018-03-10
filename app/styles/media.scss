@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 650px) {
+@media (min-width: 300px) and (max-width: 1000px) {
   .banner {
     flex-direction: column;
   }
@@ -26,6 +26,12 @@
     }
 
     &__images {
+      width: 100%;
+    }
+  }
+
+  .custom-packaging {
+    &__image {
       width: 100%;
     }
   }
