@@ -20,5 +20,5 @@ export default Ember.Component.extend({
       title: 'Get In Touch',
       desc: 'Make YOUR ration kits YOUR OWN thru our Custom Packaging Program. Contact us today and lets get Creative, Together!',
     },
-  ]
+  ],
 });

@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: 'rtablada',
   env: {
-    browser: true
+    browser: true,
+    jquery: true
   },
   rules: {
     "comma-dangle": ["error", "always-multiline"],
